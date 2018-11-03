@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+@font-face{
+
+	font-family: 'Aleo, sans-serif';
+	
+	src: url('../fonts/Aleo-Regular.otf');
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	color:  #e8e8e8;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+	letter-spacing: 0.035em;
+}
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	color:  #ffffff;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+
+	margin-bottom: 15px;
+}
+h4{
+	font-family: 'Josefin Sans', sans-serif;
+	color:  #e8e8e8;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
+h5{
+	font-family: 'Josefin Sans', sans-serif;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
+h3{
+	font-family: 'Aleo, sans-serif';
+	color:  #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
+main{
+	border: 15px solid #FFFFFF;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 345px;
+	padding-right: 345px;
+	max-width: 1800px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+
+	text-decoration: none;
+	text-transform: uppercase;
+
+	border: none;
+
+	background-color:  #5474fd;
+
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+
+	padding: 20px 60px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background-color:  #0f1f69;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* .ba-top */
+.ba-top{
+	background: url('../img/1/bg_top.jpg') no-repeat;
+	font-size: cover;
+	height: 100%;
+	padding-top: 245px;
+	padding-right: 100px;
+}
+.ba-underh1{
+	font-family: 'Josefin Sans', sans-serif;
+	color:  #ffffff;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 26px;
+	text-align: center;
+	margin-top: 0;
+	letter-spacing: 0.259em;
+}
+
+.ba-search-form{
+	background: #FFFFFF;
+	align-items: center;
+	margin: 50px auto 115px;
+	width: 60%;
+}
+.ba-formtext{
+	font-family: 'Josefin Sans', sans-serif;
+	color:  #999999;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	padding: 13px 123px 13px 123px;
+	letter-spacing: 0.12em;
+	width: 77%;
+}
+.ba-search-button{
+	border-width: 2px solid #ffffff;
+	background-color:  #5474fd;
+	padding: 13px 15px 13px 25px;
+
+
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+.ba-search-button svg{
+	margin-left: 15px;
+}
+
+.ba-scroll{
+	text-align: center;
+	margin-bottom: 120px;
+}
+.ba-scroll p{
+	margin-bottom: 0;
+}
+
+/* .ba-header */
+.ba-header{
+	background-color: #5474FD;
+}
+.ba-header-bar{
+	display: flex;
+}
+.ba-logo{
+	margin-top: 28px;
+	margin-left: -55px;
+	margin-right: 395px;
+	margin-bottom: 25px;
+	display: block;
+}
+.ba-menu{
+	display: flex;
+}
+
+.ba-menu li{
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 14px;
+}
+.ba-menu li + li{
+	margin-left: 47px;
+}
+.ba-menu a{
+	text-decoration: none;
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
+.ba-menu a:hover{
+	text-decoration-line: underline;
+}
+
+
+/* ba-why */
+.ba-why{
+	background: url('../img/2/bg_2.jpg') no-repeat;
+	background-size: cover;
+}
+.ba-container-mini2{
+	margin-top: 170px;
+	max-width: 650px;
+	margin-left: -18px;
+}
+.ba-container-mini2 h3{
+	padding-bottom: 30px;
+}
+.ba-container-mini2 p{
+	margin-bottom: 25px;
+}
+
+.ba-place-img{
+	padding-top: 120px;
+}
+.ba-imgs{
+	width: 350px;
+	height: 220px;
+	margin-left: 80px;
+}
+.ba-img-2{
+	margin-left: 205px;
+	margin-bottom: 120px;
+}
+.ba-why-href{
+	display: block;
+	background: #496BFE;
+	font-family: Aleo;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+/* .ba-icons */
+.ba-icons{
+	background: #333333;
+}
+.ba-icon{
+	display: flex;
+	justify-content: center;
+}
+.ba-icon-svg{
+	border-radius: 50%;
+	background-color:  #333333;
+}
+.ba-icon-text{
+	font-family: Aleo;
+	color:  #e8e8e8;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+.ba-icon-text + .ba-icon-text{
+	margin-left: 173px;
+}
+.ba-i{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: -100px;
+}
+.ba-i + .ba-i{
+	margin-left: 180px;
+}
+.ba-container-mini2 button{
+	margin-top: 15px;
+}
+
+
+/* ba-info1 */
+.ba-info1{
+	background: url('../img/4-bg.jpg') no-repeat;
+	font-size: cover;
+	height: 100%;
+	padding-top: 230px;
+
+}
+.ba-container-mini-info1{
+	width: 560px;
+	background: rgba(35, 35, 35, 0.9);
+	padding: 50px 30px;
+
+}
+.ba-container-mini-info1 p{
+	margin-bottom: 48px;
+}
+
+/* ba-info2 */
+.ba-info2{
+	background: url('../img/5-bg.jpg') no-repeat;
+	font-size: cover;
+	height: 100%;
+	padding-top: 230px;
+
+	display: flex;
+
+
+}
+.ba-container-mini-info2{
+	width: 540px;
+	background: rgba(35, 35, 35, 0.9);
+	padding: 50px 30px;
+
+	justify-content: flex-end;
+}
+.ba-container-mini-info2 p{
+	margin-bottom: 48px;
+}
+
+/* ba-review */
+.ba-review{
+	background: url('../img/6-bg.jpg') no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.ba-cite{
+	background: #333333;
+	padding: 50px 60px;
+}
+.ba-cite p{
+	font-family: JosefinSans;
+	color:  #fefefe;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+	text-transform: uppercase;
+}
