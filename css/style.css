@@ -8,11 +8,11 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
 	color:  #e8e8e8;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
 	line-height: 26px;
 	text-align: left;
-	letter-spacing: 0.035em;
+	letter-spacing: 0.001em;
 }
 h1{
 	font-family: 'Josefin Sans', sans-serif;
@@ -41,6 +41,9 @@ h5{
 	font-weight: 400;
 	line-height: 26px;
 	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.001em;
+
 }
 h3{
 	font-family: 'Aleo, sans-serif';
@@ -56,9 +59,10 @@ main{
 
 /* Layout */
 .ba-container{
-	padding-left: 345px;
-	padding-right: 345px;
-	max-width: 1800px;
+	padding-left: 330px;
+	padding-right: 330px;
+	max-width: 1770px;
+
 }
 
 /* Typography */
@@ -81,14 +85,14 @@ button,
 
 	background-color:  #5474fd;
 
-	font-family: Aleo;
+	font-family: 'Aleo, sans-serif';
 	color:  #ffffff;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
 	text-align: left;
 
-	padding: 20px 60px;
+	padding: 17px 45px;
 }
 input[type="submit"]:hover,
 input[type="button"]:hover,
@@ -124,6 +128,7 @@ textarea {
 .ba-top{
 	background: url('../img/1/bg_top.jpg') no-repeat;
 	font-size: cover;
+	width: 100%;
 	height: 100%;
 	padding-top: 245px;
 	padding-right: 100px;
@@ -152,17 +157,18 @@ textarea {
 	font-weight: 400;
 	line-height: 26px;
 	text-align: center;
-	padding: 13px 123px 13px 123px;
-	letter-spacing: 0.12em;
-	width: 77%;
+	padding: 13px 120px 13px 123px;
+	letter-spacing: 0.129em;
+	width: 76%;
+	border: none;
 }
 .ba-search-button{
 	border-width: 2px solid #ffffff;
 	background-color:  #5474fd;
-	padding: 13px 15px 13px 25px;
+	padding: 13px 20px 14px 25px;
 
 
-	font-family: Aleo;
+	font-family: 'Aleo, sans-serif';
 	color:  #ffffff;
 	font-size: 14px;
 	font-weight: 400;
@@ -177,7 +183,7 @@ textarea {
 
 .ba-scroll{
 	text-align: center;
-	margin-bottom: 120px;
+	margin-bottom: 125px;
 }
 .ba-scroll p{
 	margin-bottom: 0;
@@ -186,16 +192,18 @@ textarea {
 /* .ba-header */
 .ba-header{
 	background-color: #5474FD;
+	width: 100%;
+	height: 100%;
 }
 .ba-header-bar{
 	display: flex;
 }
 .ba-logo{
 	margin-top: 28px;
-	margin-left: -55px;
-	margin-right: 395px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	display: block;
+
+	margin-right: 390px;
 }
 .ba-menu{
 	display: flex;
@@ -207,11 +215,11 @@ textarea {
 	margin-top: 14px;
 }
 .ba-menu li + li{
-	margin-left: 47px;
+	margin-left: 40px;
 }
 .ba-menu a{
 	text-decoration: none;
-	font-family: Aleo;
+	font-family: 'Aleo, sans-serif';
 	color:  #ffffff;
 	font-size: 14px;
 	font-weight: 400;
@@ -226,18 +234,24 @@ textarea {
 /* ba-why */
 .ba-why{
 	background: url('../img/2/bg_2.jpg') no-repeat;
-	background-size: cover;
+	/* background-size: cover; */
 }
 .ba-container-mini2{
 	margin-top: 170px;
-	max-width: 650px;
-	margin-left: -18px;
+	max-width: 560px;
 }
 .ba-container-mini2 h3{
 	padding-bottom: 30px;
 }
 .ba-container-mini2 p{
 	margin-bottom: 25px;
+
+	color:  #e8e8e8;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+	letter-spacing: 0.02em;
 }
 
 .ba-place-img{
@@ -246,57 +260,70 @@ textarea {
 .ba-imgs{
 	width: 350px;
 	height: 220px;
-	margin-left: 80px;
+	margin-left: 70px;
 }
 .ba-img-2{
-	margin-left: 205px;
-	margin-bottom: 120px;
+	margin-left: 200px;
+	margin-bottom: 130px;
 }
 .ba-why-href{
 	display: block;
 	background: #496BFE;
-	font-family: Aleo;
+	font-family: 'Aleo, sans-serif';
 	color:  #ffffff;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
 }
+.ba-container-mini2 button{
+	margin-top: 15px;
+}
+.ba-why-text{
+	color:  #e8e8e8;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
 
 /* .ba-icons */
 .ba-icons{
-	background: #333333;
+	background-color: #333333;
+	width: 100%;
+	height: 100%;
+
+	margin-left: -110px;
+
 }
 .ba-icon{
+
 	display: flex;
 	justify-content: center;
+
 }
 .ba-icon-svg{
 	border-radius: 50%;
 	background-color:  #333333;
 }
 .ba-icon-text{
-	font-family: Aleo;
+	font-family: 'Aleo, sans-serif';
 	color:  #e8e8e8;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 26px;
 	text-align: center;
-}
-.ba-icon-text + .ba-icon-text{
-	margin-left: 173px;
+
+	margin-top: 20px;
 }
 .ba-i{
 	text-align: center;
 	margin-top: 80px;
 	margin-bottom: 80px;
-	margin-left: -100px;
 }
 .ba-i + .ba-i{
-	margin-left: 180px;
+	margin-left: 165px;
 }
-.ba-container-mini2 button{
-	margin-top: 15px;
-}
+
 
 
 /* ba-info1 */
@@ -304,17 +331,28 @@ textarea {
 	background: url('../img/4-bg.jpg') no-repeat;
 	font-size: cover;
 	height: 100%;
+	width: 100%;
 	padding-top: 230px;
+
 
 }
 .ba-container-mini-info1{
-	width: 560px;
+	width: 530px;
+	height: 370px;
 	background: rgba(35, 35, 35, 0.9);
-	padding: 50px 30px;
+	padding: 20px 20px;
+
+	margin-bottom: 100px;
 
 }
 .ba-container-mini-info1 p{
-	margin-bottom: 48px;
+	margin-bottom: 40px;
+
+
+}
+.ba-container-mini-info1 h5{
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 /* ba-info2 */
@@ -322,39 +360,76 @@ textarea {
 	background: url('../img/5-bg.jpg') no-repeat;
 	font-size: cover;
 	height: 100%;
+	width: 100%;
 	padding-top: 230px;
 
 	display: flex;
 
-
 }
 .ba-container-mini-info2{
 	width: 540px;
-	background: rgba(35, 35, 35, 0.9);
-	padding: 50px 30px;
+	height: 370px;
 
-	justify-content: flex-end;
+	background: rgba(35, 35, 35, 0.9);
+	padding: 20px 35px;
+
+	margin-left: 520px;
+
+	margin-bottom: 100px;
+
 }
 .ba-container-mini-info2 p{
-	margin-bottom: 48px;
+	margin-bottom: 40px;
 }
+.ba-container-mini-info2 h5{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
 
 /* ba-review */
 .ba-review{
 	background: url('../img/6-bg.jpg') no-repeat;
-	background-size: cover;
+	/* background-size: cover; */
+	width: 100%;
 	height: 100%;
+
+	margin-top: -37px;
+	padding-bottom: 300px;
+}
+.ba-review h3{
+	padding-top: 120px;
+
+	text-align: center;
+	padding-right: 120px;
+	padding-bottom: 70px;
+}
+.ba-tourist-say{
+	display: flex;
 }
 .ba-cite{
 	background: #333333;
-	padding: 50px 60px;
+
+	margin-right: 100px;
+
 }
 .ba-cite p{
-	font-family: JosefinSans;
+	font-family: 'Josefin Sans', sans-serif;
 	color:  #fefefe;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 26px;
 	text-align: left;
 	text-transform: uppercase;
+
+	padding: 50px 60px 25px 55px;
+
+	margin-top: -5px;
+	margin-bottom: 0;
+}
+blockquote{
+	padding-left: 20px;
+}
+blockquote::before{
+
 }
